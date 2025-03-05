@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Cover Page */
+.cover {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    padding: 100px 20px;
+}
+
+.cover h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.cover h2 {
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 50px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills */
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #0073e6;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact a {
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+}
